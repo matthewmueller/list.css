@@ -1,0 +1,99 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="build/build.css">
+    <link rel="stylesheet" href="list.css">
+    <style>
+
+      body {
+        font-family: "Helvetica Neue"
+      }
+
+      .list {
+        border-radius: 5px;
+      }
+
+      input {
+        border: 0px solid #ccc;
+        outline: none;
+        width: 200px;
+        padding: 3px;
+      }
+
+      .success {
+        color: #A5C261;
+      }
+
+      .error {
+        color: #DA493A
+      }
+
+      .highlight {
+        color: #45AFFC
+      }
+/*      input:focus {l
+        outline: 2px solid #45AFFC;
+      }
+*/
+      .list {
+        font-size: 14px;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <ul class="list">
+
+      <li>
+        <a href="/done">
+          <i class="list-prepend">G</i>
+          To be or not to be, that is the question.
+        </a>
+      </li>
+      <li>
+        <a href="/done">
+          <i class="list-prepend general foundicon-idea"></i>
+          <i class="list-append general-enclosed foundicon-right-arrow"></i>
+          Without a cause, he is a dog chasing his tail
+        </a>
+      </li>
+      <li>
+        <i class="list-append general-enclosed foundicon-checkmark success"></i>
+        Carpe Diem
+      </li>
+      <li>
+        <i class="list-prepend general-enclosed foundicon-settings highlight"></i>
+        <i class="list-append general-enclosed foundicon-remove error"></i>
+        <input type="text" placeholder="Enter account information">
+      </li>
+    </ul>
+    <br>
+    <ul class="list">
+      <form action="/finish">
+      <li>
+        <a href="/done">
+          <i class="list-prepend">G</i>
+          To be or not to be, that is the question.
+        </a>
+      </li>
+      <li>
+        <a href="/done">
+          <i class="list-prepend general foundicon-idea"></i>
+          <i class="list-append general-enclosed foundicon-right-arrow"></i>
+          Without a cause, he is a dog chasing his tail
+        </a>
+      </li>
+      <li>
+        <i class="list-append general-enclosed foundicon-checkmark success"></i>
+        Carpe Diem
+      </li>
+      <li>
+        <i class="list-prepend general-enclosed foundicon-settings"></i>
+        <i class="list-append general-enclosed foundicon-remove error"></i>
+        <input type="text" placeholder="Enter account information">
+      </li>
+      </form>
+    </ul>
+
+  </body>
+</html>
