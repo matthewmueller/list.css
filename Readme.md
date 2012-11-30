@@ -16,7 +16,9 @@
 
 You need to place `.list-prepend`, `.list-append` before the list item text/element.
 
-## Basic Example:
+## Examples:
+
+### Basic:
 
 ```html
 <ul class="list">
@@ -28,15 +30,20 @@ You need to place `.list-prepend`, `.list-append` before the list item text/elem
 </ul>
 ```
 
-## Form Example:
+### Form:
 
 ```html
 <ul class="list">
- <form action="/finish">
+ <form action="/login">
     <li>
       <i class="list-prepend icon-user"></i>
-      <i class="list-append icon-arrow"></i>
-      <input type="text" placeholder="username:">
+      <i class="list-append icon-valid"></i>
+      <input type="text" placeholder="username">
+    </li>
+    <li>
+      <i class="list-prepend icon-user"></i>
+      <i class="list-append icon-invalid"></i>
+      <input type="text" placeholder="password">
     </li>
  </form>
 </ul>
