@@ -3,6 +3,7 @@
   "repo" : "MatthewMueller/list.css",
   "version" : "0.0.1",
   "description" : "flexible CSS structure for lists, forms, etc",
+  "styles" : [ "list.css" ],
   "devDependencies" : {
     "kelonye/foundation-icons": "*"
   }
