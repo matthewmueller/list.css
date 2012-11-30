@@ -48,6 +48,7 @@
 
 ### Settings:
 
+```html
 <ul class="list">
  <li>
    <a href='/account'>
@@ -57,6 +58,7 @@
    </a>
  </li>
 </ul>
+```
 
 ## Known Issues:
 
