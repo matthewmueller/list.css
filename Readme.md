@@ -14,8 +14,6 @@
 * `.list-prepend`: add icon, text, etc. to the front of a list item
 * `.list-append`: add icon, text, etc. to the end of the a list item
 
-You need to place `.list-prepend`, `.list-append` before the list item text/element.
-
 ## Examples:
 
 ### Basic:
@@ -24,7 +22,6 @@ You need to place `.list-prepend`, `.list-append` before the list item text/elem
 <ul class="list">
  <li>
    <i class="list-prepend icon-user"></i>
-   <i class="list-append icon-arrow"></i>
    Username: MattMueller
  </li>
 </ul>
@@ -48,3 +45,21 @@ You need to place `.list-prepend`, `.list-append` before the list item text/elem
  </form>
 </ul>
 ```
+
+### Settings:
+
+<ul class="list">
+ <li>
+   <a href='/account'>
+     <i class="list-prepend icon-account"></i>
+     <i class="list-append icon-arrow"></i>
+     Account
+   </a>
+ </li>
+</ul>
+
+## Known Issues:
+
+* Ellipsis won't work on a link that overflows
+* You need to place `.list-prepend`, `.list-append` before the list item text or element.
+
