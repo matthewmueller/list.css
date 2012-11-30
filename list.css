@@ -30,43 +30,52 @@
  *      </li>
  *   </form>
  * </ul>
- *
  */
+
 .list {
   margin: 0;
   padding: 0;
   list-style: none;
   border: 1px solid #ccc;
-/* Remove underline and inherit color from li */
-/* Vertically align inputs */
 }
+
+/* Forms add margin at the bottom by default */
 .list > form {
   margin: 0;
 }
+
 .list li {
   border-top: 1px solid #ccc;
   line-height: 2;
   padding: 0 5px;
-/* Needed for ellipsis */
+
+  /* ellipsis */
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
 .list li:first-child {
   border-top: none;
 }
+
+/* Remove underline and inherit color from li */
 .list li > a {
   text-decoration: none;
   color: inherit;
 }
+
+/* Vertically align inputs */
 .list li > input {
   font-size: inherit;
   background: inherit;
 }
+
 .list .list-prepend {
   float: left;
   margin-right: 5px;
 }
+
 .list .list-append {
   float: right;
 }
